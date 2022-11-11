@@ -16,11 +16,13 @@ struct CGFloatExView: View {
   
   struct SizeRatio: View {
     var body: some View {
+      #if os(iOS)
       Color.cyan
         .frame(
           width: 100.widthRatio(),
           height: 100.heightRatio()
         )
+      #endif
     }
   }
 }

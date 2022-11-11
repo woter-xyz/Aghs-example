@@ -23,6 +23,7 @@
 		32877FA8291E323F00D00F15 /* TaskExView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA7291E323F00D00F15 /* TaskExView.swift */; };
 		32877FAA291E3B6F00D00F15 /* PrintLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA9291E3B6F00D00F15 /* PrintLogView.swift */; };
 		32877FAC291E3DA600D00F15 /* SampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FAB291E3DA600D00F15 /* SampleList.swift */; };
+		32877FAF291E4FF800D00F15 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FAE291E4FF800D00F15 /* AppInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		32877FA7291E323F00D00F15 /* TaskExView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExView.swift; sourceTree = "<group>"; };
 		32877FA9291E3B6F00D00F15 /* PrintLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLogView.swift; sourceTree = "<group>"; };
 		32877FAB291E3DA600D00F15 /* SampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleList.swift; sourceTree = "<group>"; };
+		32877FAE291E4FF800D00F15 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +120,8 @@
 				32877F9F291E2A3800D00F15 /* HomeModel.swift */,
 				32877FA1291E2A3E00D00F15 /* HomeVM.swift */,
 				32877F9D291E284E00D00F15 /* Router.swift */,
-				32877FAD291E4A2500D00F15 /* Examples */,
 				32877FAB291E3DA600D00F15 /* SampleList.swift */,
+				32877FAD291E4A2500D00F15 /* Examples */,
 				32877F71291E229800D00F15 /* Assets.xcassets */,
 				32877F73291E229800D00F15 /* Aghs_example.entitlements */,
 				32877F74291E229800D00F15 /* Preview Content */,
@@ -159,6 +161,7 @@
 				32877FA9291E3B6F00D00F15 /* PrintLogView.swift */,
 				32877FA5291E323800D00F15 /* UIScreenExView.swift */,
 				32877FA7291E323F00D00F15 /* TaskExView.swift */,
+				32877FAE291E4FF800D00F15 /* AppInfoView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				32877FA0291E2A3800D00F15 /* HomeModel.swift in Sources */,
 				32877F6E291E229600D00F15 /* Aghs_exampleApp.swift in Sources */,
+				32877FAF291E4FF800D00F15 /* AppInfoView.swift in Sources */,
 				32877F9E291E284E00D00F15 /* Router.swift in Sources */,
 				32877FA2291E2A3E00D00F15 /* HomeVM.swift in Sources */,
 				32877FAA291E3B6F00D00F15 /* PrintLogView.swift in Sources */,

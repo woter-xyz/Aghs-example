@@ -19,7 +19,9 @@ struct HomeView: View {
       .navigationTitle("Aghs Example")
       .navigationDestination(for: Route.self) { route in
         route.destination
+        #if os(iOS)
           .navigationBarTitleDisplayMode(.inline)
+        #endif
       }
     }
   }

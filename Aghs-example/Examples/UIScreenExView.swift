@@ -18,8 +18,10 @@ struct UIScreenExView: View {
   struct ScreenSize: View {
     var body: some View {
       VStack(alignment: .leading) {
+        #if os(iOS)
         Text("Screen width: \(UIScreen.width)")
         Text("Screen height: \(UIScreen.height)")
+        #endif
       }
     }
   }
