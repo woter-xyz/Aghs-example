@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct Aghs_exampleApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      HomeView()
     }
+  }
 }

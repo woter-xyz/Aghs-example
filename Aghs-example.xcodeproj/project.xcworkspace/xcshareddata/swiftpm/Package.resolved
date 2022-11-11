@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "aghs",
+      "kind" : "localSourceControl",
+      "location" : "/Users/bruce/p/Aghs",
+      "state" : {
+        "branch" : "dev",
+        "revision" : "71888327935a75b5d120ba7cb6e35e97e59843cf"
+      }
+    }
+  ],
+  "version" : 2
+}
