@@ -19,8 +19,8 @@ struct CGFloatExView: View {
       #if os(iOS)
       Color.cyan
         .frame(
-          width: 100.widthRatio(),
-          height: 100.heightRatio()
+          width: 100.ax.widthRatio(),
+          height: 100.ax.heightRatio()
         )
       #endif
     }

@@ -3,10 +3,10 @@
     {
       "identity" : "aghs",
       "kind" : "localSourceControl",
-      "location" : "/Users/bruce/p/Aghs",
+      "location" : "/Users/zzzwco/p/Aghs",
       "state" : {
         "branch" : "dev",
-        "revision" : "5241a2e25e7feb018efd35eb7ec1eaee9afaf67b"
+        "revision" : "fe10923b8504bb4242152c1c3a97556ce473fcca"
       }
     }
   ],

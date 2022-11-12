@@ -10,7 +10,7 @@ import Aghs
 
 struct PrintLogView: View {
   var body: some View {
-    printLog("Hello")
+    Aghs.print("Hello")
     return Text("See the console")
   }
 }

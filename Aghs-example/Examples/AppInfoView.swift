@@ -18,9 +18,9 @@ struct AppInfoView: View {
   struct Info: View {
     var body: some View {
       VStack(alignment: .leading) {
-        Text("DisplayName: \(AppInfo.displayName ?? "?")")
-        Text("Version: \(AppInfo.version ?? "?")")
-        Text("Build Version: \(AppInfo.buildVersion ?? "?")")
+        Text("DisplayName: \(Aghs.AppInfo.displayName ?? "?")")
+        Text("Version: \(Aghs.AppInfo.version ?? "?")")
+        Text("Build Version: \(Aghs.AppInfo.buildVersion ?? "?")")
       }
     }
   }

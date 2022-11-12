@@ -20,7 +20,7 @@ struct TaskExView: View {
     var body: some View {
       Text(text)
         .task {
-          try? await Task.sleep(seconds: 2)
+          try? await Task.ax.sleep(seconds: 2)
           text = "Time's up!"
         }
     }
