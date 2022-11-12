@@ -24,6 +24,7 @@ public protocol Routable: Hashable {
 }
 
 enum Route {
+  case conditional
   case printLog
   case cgfloatEx
   case uiscreenEx
@@ -34,6 +35,8 @@ extension Route: Routable {
   
   var destination: some View {
     switch self {
+    case .conditional:
+      ConditionalView()
     case .printLog:
       PrintLogView()
     case .cgfloatEx:
