@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import Aghs
 
 @main
 struct Aghs_exampleApp: App {
+  @StateObject var hud = Hud()
+  
   var body: some Scene {
     WindowGroup {
       HomeView()
+        .ax.hud(hud)
     }
   }
 }
