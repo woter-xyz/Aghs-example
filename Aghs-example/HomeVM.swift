@@ -22,6 +22,7 @@ final class HomeVM: ObservableObject {
     ]),
     .init(name: "Utils", children: [
       .init(name: "printLog", route: .printLog),
+      .init(name: "dismissKeyboard", route: .dismissKeyboard)
     ])
   ]
 }
