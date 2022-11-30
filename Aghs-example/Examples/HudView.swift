@@ -14,7 +14,7 @@ struct HudView: View {
   var body: some View {
     VStack {
       Button("Show") {
-        hud.show {
+        hud.show(disabled: true) {
           VStack(spacing: 10) {
             Text("Some text...")
             DismissButton()
