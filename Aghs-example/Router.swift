@@ -24,6 +24,7 @@ public protocol Routable: Hashable {
 }
 
 enum Route {
+  case tip
   case dismissKeyboard
   case hud
   case conditional
@@ -37,6 +38,8 @@ extension Route: Routable {
   
   var destination: some View {
     switch self {
+    case .tip:
+      TipView()
     case .dismissKeyboard:
       DismissKeyboardView()
     case .hud:

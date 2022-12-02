@@ -14,31 +14,15 @@ struct HudView: View {
   var body: some View {
     VStack {
       Button("Show") {
-        hud.show(style: .tip(style: .default(), position: .bottom)) {
-//          VStack(spacing: 10) {
-//            Text("Some text...")
-//            DismissButton()
-//          }
-//          .padding(30)
-//          .background(Color.orange)
-//          .cornerRadius(10)
-          
-//          ActivityIndicator()
-          
-          Text("Hello world!")
-            .padding()
+        hud.show(style: .default()) {
+          DismissButton()
+            .padding(50)
             .background(Color.white)
-            .clipShape(Capsule())
+            .clipShape(RoundedRectangle(cornerRadius: 15))
             .shadow(radius: 10)
         }
       }
       .padding(50)
-      
-      NavigationLink {
-        Text("Hello")
-      } label: {
-        Text("Push")
-      }
     }
   }
 }

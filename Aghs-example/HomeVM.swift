@@ -10,6 +10,7 @@ import Foundation
 final class HomeVM: ObservableObject {
   @Published var listData: [HomeItemModel] = [
     .init(name: "UI", children: [
+      .init(name: "Tip", route: .tip),
       .init(name: "Hud", route: .hud)
     ]),
     .init(name: "ax/Extensions", children: [
