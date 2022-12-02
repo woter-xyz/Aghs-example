@@ -17,6 +17,18 @@ struct TipView: View {
   
   var body: some View {
     VStack(spacing: 20) {
+      
+      Button("Loading") {
+        isPrenseted2.toggle()
+      }
+      
+      Button("Bottom") {
+        withAnimation {
+          isPrenseted3.toggle()
+        }
+      }
+      
+      Spacer()
       HStack {
         Button("Top1") {
           top1 = true
@@ -28,18 +40,8 @@ struct TipView: View {
           top3 = true
         }
       }
-      
-      Button("Loading") {
-        isPrenseted2.toggle()
-      }
-      
-      Button("Bottom") {
-        withAnimation {
-          isPrenseted3.toggle()
-        }
-      }
+
     }
-    .offset(y: 100)
     .ax.toast(isPresented: $top1, style: .default(duration: 1), position: .top) {
       RoundedRectangle(cornerRadius: 10)
         .foregroundColor(.red)
@@ -51,11 +53,6 @@ struct TipView: View {
         .foregroundColor(.red)
         .frame(width: 100, height: 36)
         .offset(y: 50)
-    }
-    .onAppear {
-      DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-        top1 = true
-      }
     }
   }
 }
