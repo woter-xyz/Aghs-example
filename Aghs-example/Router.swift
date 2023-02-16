@@ -28,6 +28,7 @@ enum Route {
   case dismissKeyboard
   case hud
   case conditional
+  case roundCorner
   case printLog
   case cgfloatEx
   case uiscreenEx
@@ -46,6 +47,8 @@ extension Route: Routable {
       HudView()
     case .conditional:
       ConditionalView()
+    case .roundCorner:
+      RoundCorner()
     case .printLog:
       PrintLogView()
     case .cgfloatEx:

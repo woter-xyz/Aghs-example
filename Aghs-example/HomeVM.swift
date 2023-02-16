@@ -20,6 +20,7 @@ final class HomeVM: ObservableObject {
     ]),
     .init(name: "ax/ViewModifiers", children: [
       .init(name: "Conditional", route: .conditional),
+      .init(name: "RoundCorner", route: .roundCorner),
     ]),
     .init(name: "Utils", children: [
       .init(name: "printLog", route: .printLog),

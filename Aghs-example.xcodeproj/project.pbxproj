@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3218EA6B2939B0BD00F24DFF /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218EA6A2939B0BD00F24DFF /* TipView.swift */; };
+		32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32369B0D299DD4E4001536BB /* RoundCorner.swift */; };
 		32531ADF2924A0D100B36D91 /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 32531ADE2924A0D100B36D91 /* Aghs */; };
 		32531AE32924A13700B36D91 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531AE22924A13700B36D91 /* HudView.swift */; };
 		32531B712927224700B36D91 /* DismissKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531B702927224700B36D91 /* DismissKeyboardView.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		3218EA6A2939B0BD00F24DFF /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
+		32369B0D299DD4E4001536BB /* RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
 		32531AE22924A13700B36D91 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		32531B702927224700B36D91 /* DismissKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardView.swift; sourceTree = "<group>"; };
 		32877F6A291E229600D00F15 /* Aghs-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aghs-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +173,7 @@
 				32877FA7291E323F00D00F15 /* TaskExView.swift */,
 				32877FAE291E4FF800D00F15 /* AppInfoView.swift */,
 				69113634291FDCB8005AF8DF /* ConditionalView.swift */,
+				32369B0D299DD4E4001536BB /* RoundCorner.swift */,
 				32531AE22924A13700B36D91 /* HudView.swift */,
 				3218EA6A2939B0BD00F24DFF /* TipView.swift */,
 				32531B702927224700B36D91 /* DismissKeyboardView.swift */,
@@ -327,6 +330,7 @@
 				32877FAC291E3DA600D00F15 /* SampleList.swift in Sources */,
 				69113635291FDCB8005AF8DF /* ConditionalView.swift in Sources */,
 				32531B712927224700B36D91 /* DismissKeyboardView.swift in Sources */,
+				32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */,
 				32531AE32924A13700B36D91 /* HudView.swift in Sources */,
 				3218EA6B2939B0BD00F24DFF /* TipView.swift in Sources */,
 			);

@@ -14,7 +14,7 @@ struct ConditionalView: View {
   var body: some View {
     VStack {
       Text("if")
-        .ax.if(Bool.random()) { view in
+        .ax_if(Bool.random()) { view in
           VStack {
             Text("Hello")
             view.foregroundColor(.purple)
@@ -23,7 +23,7 @@ struct ConditionalView: View {
         .font(.title)
       
       Text("ifLet")
-        .ax.ifLet(Bool.random() ? Color.orange : nil) { view, value in
+        .ax_ifLet(Bool.random() ? Color.orange : nil) { view, value in
           HStack {
             Text("Hello")
             view.foregroundColor(value)
