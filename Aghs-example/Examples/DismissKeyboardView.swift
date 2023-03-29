@@ -22,7 +22,10 @@ struct DismissKeyboardView: View {
         Aghs.dismissKeyboard()
         #endif
       }
+      
+      Spacer()
     }
+    .ax.dismissKeyboardOnTap()
   }
 }
 
