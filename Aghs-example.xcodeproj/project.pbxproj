@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3218EA6B2939B0BD00F24DFF /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218EA6A2939B0BD00F24DFF /* TipView.swift */; };
+		322D169829D4179600FA5B98 /* CustomNavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D169729D4179600FA5B98 /* CustomNavBackButton.swift */; };
 		32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32369B0D299DD4E4001536BB /* RoundCorner.swift */; };
 		32531ADF2924A0D100B36D91 /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 32531ADE2924A0D100B36D91 /* Aghs */; };
 		32531AE32924A13700B36D91 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531AE22924A13700B36D91 /* HudView.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		3218EA6A2939B0BD00F24DFF /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
+		322D169729D4179600FA5B98 /* CustomNavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBackButton.swift; sourceTree = "<group>"; };
 		32369B0D299DD4E4001536BB /* RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
 		32531AE22924A13700B36D91 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		32531B702927224700B36D91 /* DismissKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				32531AE22924A13700B36D91 /* HudView.swift */,
 				3218EA6A2939B0BD00F24DFF /* TipView.swift */,
 				32531B702927224700B36D91 /* DismissKeyboardView.swift */,
+				322D169729D4179600FA5B98 /* CustomNavBackButton.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			files = (
 				32877FA0291E2A3800D00F15 /* HomeModel.swift in Sources */,
 				32877F6E291E229600D00F15 /* Aghs_exampleApp.swift in Sources */,
+				322D169829D4179600FA5B98 /* CustomNavBackButton.swift in Sources */,
 				32877FAF291E4FF800D00F15 /* AppInfoView.swift in Sources */,
 				32877F9E291E284E00D00F15 /* Router.swift in Sources */,
 				32877FA2291E2A3E00D00F15 /* HomeVM.swift in Sources */,
@@ -419,6 +423,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -471,6 +477,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -501,7 +509,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -539,7 +547,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;

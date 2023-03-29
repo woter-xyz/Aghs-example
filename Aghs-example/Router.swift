@@ -33,6 +33,7 @@ enum Route {
   case cgfloatEx
   case uiscreenEx
   case taskEx
+  case customNavBackButton
 }
 
 extension Route: Routable {
@@ -57,6 +58,8 @@ extension Route: Routable {
       UIScreenExView()
     case .taskEx:
       TaskExView()
+    case .customNavBackButton:
+      CustomNavBackButton()
     }
   }
 }
