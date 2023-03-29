@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#if canImport(UIKit)
 struct CustomNavBackButton: View {
   
   var body: some View {
@@ -22,3 +23,4 @@ struct CustomNavBackButton_Previews: PreviewProvider {
     CustomNavBackButton()
   }
 }
+#endif

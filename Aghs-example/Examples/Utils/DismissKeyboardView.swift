@@ -8,6 +8,7 @@
 import SwiftUI
 import Aghs
 
+#if canImport(UIKit)
 struct DismissKeyboardView: View {
   @State private var text = ""
   
@@ -37,3 +38,4 @@ struct DismissKeyboardView_Previews: PreviewProvider {
     DismissKeyboardView()
   }
 }
+#endif

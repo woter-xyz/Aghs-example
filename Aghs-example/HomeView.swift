@@ -13,6 +13,7 @@ struct HomeView: View {
   @StateObject private var vm = HomeViewModel()
   
   var body: some View {
+    #if os(iOS)
     NavigationStack(path: $router.path) {
       List(vm.listData, children: \.children) { item in
         ListItemView(itemData: item)
@@ -26,6 +27,20 @@ struct HomeView: View {
       }
     }
     .environmentObject(router)
+    #else
+    NavigationSplitView {
+      List(vm.listData, id: \.id, children: \.children, selection: $vm.selection) { item in
+        Text(item.displayName)
+      }
+      .navigationTitle("Aghs Example")
+    } detail: {
+      if let selection = vm.selection, let route = selection.route {
+        route.destination
+      } else {
+        Text("Select")
+      }
+    }
+    #endif
   }
 }
 

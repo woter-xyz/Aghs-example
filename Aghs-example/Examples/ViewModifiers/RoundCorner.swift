@@ -8,6 +8,7 @@
 import SwiftUI
 import Aghs
 
+#if canImport(UIKit)
 struct RoundCorner: View {
   var body: some View {
     Color.blue
@@ -21,3 +22,4 @@ struct RoundCorner_Previews: PreviewProvider {
     RoundCorner()
   }
 }
+#endif

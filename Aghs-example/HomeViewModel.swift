@@ -8,6 +8,7 @@
 import Foundation
 
 final class HomeViewModel: ObservableObject {
+  
   @Published var listData: [HomeItemModel] = [
     .init(name: "UI", children: [
       .init(route: .toast),
@@ -28,4 +29,8 @@ final class HomeViewModel: ObservableObject {
       .init(route: .dismissKeyboard)
     ])
   ]
+  
+  #if os(macOS)
+  @Published var selection: HomeItemModel?
+  #endif
 }

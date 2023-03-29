@@ -13,7 +13,7 @@ struct HomeItemModel: Identifiable, Hashable {
   var route: Route?
   var children: [Self]?
   
-  let id = UUID()
+  var id: Self { self }
 }
 
 extension HomeItemModel {

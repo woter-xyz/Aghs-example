@@ -33,13 +33,21 @@ enum Route: String, Hashable {
     case .toast:
       ToastView()
     case .dismissKeyboard:
+      #if canImport(UIKit)
       DismissKeyboardView()
+      #else
+      platformTipView
+      #endif
     case .hud:
       HudView()
     case .conditional:
       ConditionalView()
     case .roundCorner:
+      #if canImport(UIKit)
       RoundCorner()
+      #else
+      platformTipView
+      #endif
     case .debugPrint:
       DebugPrintView()
     case .cgfloatEx:
@@ -49,8 +57,20 @@ enum Route: String, Hashable {
     case .taskEx:
       TaskExView()
     case .customNavBackButton:
+      #if canImport(UIKit)
       CustomNavBackButton()
+      #else
+      platformTipView
+      #endif
     }
+  }
+  
+  private var platformTipView: some View {
+    var platform = "iOS"
+    #if os(iOS)
+    platform = "macOS"
+    #endif
+    return Text("Only available for \(platform)").foregroundColor(.secondary)
   }
 }
 
