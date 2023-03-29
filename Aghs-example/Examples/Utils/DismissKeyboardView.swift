@@ -23,6 +23,9 @@ struct DismissKeyboardView: View {
         #endif
       }
       
+      Text("Tap on this view to dismiss keyboard")
+        .frame(maxHeight: .infinity)
+      
       Spacer()
     }
     .ax.dismissKeyboardOnTap()

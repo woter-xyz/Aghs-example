@@ -8,7 +8,7 @@
 import SwiftUI
 import Aghs
 
-struct PrintLogView: View {
+struct DebugPrintView: View {
   var body: some View {
     Aghs.print("Hello")
     return Text("See the console")
@@ -17,6 +17,6 @@ struct PrintLogView: View {
 
 struct PrintLogView_Previews: PreviewProvider {
   static var previews: some View {
-    PrintLogView()
+    DebugPrintView()
   }
 }

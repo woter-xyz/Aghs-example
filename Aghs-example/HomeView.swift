@@ -9,8 +9,8 @@ import SwiftUI
 import Aghs
 
 struct HomeView: View {
-  @StateObject private var router = Router.shared
-  @StateObject private var vm = HomeVM()
+  @StateObject private var router = Router()
+  @StateObject private var vm = HomeViewModel()
   
   var body: some View {
     NavigationStack(path: $router.path) {
@@ -25,6 +25,7 @@ struct HomeView: View {
         #endif
       }
     }
+    .environmentObject(router)
   }
 }
 
@@ -34,10 +35,10 @@ fileprivate struct ListItemView: View {
   var body: some View {
     if itemData.children == nil {
       NavigationLink(value: itemData.route) {
-        Text(itemData.name)
+        Text(itemData.displayName)
       }
     } else {
-      Text(itemData.name)
+      Text(itemData.displayName)
     }
   }
 }

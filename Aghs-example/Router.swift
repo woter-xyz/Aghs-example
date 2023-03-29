@@ -10,38 +10,28 @@ import SwiftUI
 
 public final class Router: ObservableObject {
   @Published var path: [Route] = []
-  
-  static let shared = Router()
-  
-  private init() {}
+      
+  func to(_ route: Route) {
+    path.append(route)
+  }
 }
 
-public protocol Routable: Hashable {
-
-  associatedtype D: View
-
-  @ViewBuilder var destination: D { get }
-}
-
-enum Route {
-  case tip
+enum Route: String, Hashable {
+  case toast
   case dismissKeyboard
   case hud
   case conditional
   case roundCorner
-  case printLog
+  case debugPrint
   case cgfloatEx
   case uiscreenEx
   case taskEx
   case customNavBackButton
-}
-
-extension Route: Routable {
   
-  var destination: some View {
+  @ViewBuilder var destination: some View {
     switch self {
-    case .tip:
-      TipView()
+    case .toast:
+      ToastView()
     case .dismissKeyboard:
       DismissKeyboardView()
     case .hud:
@@ -50,8 +40,8 @@ extension Route: Routable {
       ConditionalView()
     case .roundCorner:
       RoundCorner()
-    case .printLog:
-      PrintLogView()
+    case .debugPrint:
+      DebugPrintView()
     case .cgfloatEx:
       CGFloatExView()
     case .uiscreenEx:

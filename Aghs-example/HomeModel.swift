@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct HomeItemModel: Identifiable, Hashable {
-  var name: String
+  var name: String?
   var route: Route?
   var children: [Self]?
   
@@ -18,9 +18,13 @@ struct HomeItemModel: Identifiable, Hashable {
 
 extension HomeItemModel {
   
-//  @ViewBuilder var destination: some View {
-//    switch self.title {
-//      
-//    }
-//  }
+  var displayName: String {
+    if let name {
+      return name
+    }
+    if let route {
+      return route.rawValue
+    }
+    return "Unknown"
+  }
 }

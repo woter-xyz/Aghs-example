@@ -8,7 +8,7 @@
 import SwiftUI
 import Aghs
 
-struct TipView: View {
+struct ToastView: View {
   @State private var top1 = false
   @State private var top2 = false
   @State private var top3 = false
@@ -59,6 +59,6 @@ struct TipView: View {
 
 struct TipView_Previews: PreviewProvider {
   static var previews: some View {
-    TipView()
+    ToastView()
   }
 }
