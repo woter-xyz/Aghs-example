@@ -23,9 +23,6 @@ enum Route: String, Hashable {
   case conditional
   case roundCorner
   case debugPrint
-  case cgfloatEx
-  case uiscreenEx
-  case taskEx
   case customNavBackButton
   
   @ViewBuilder var destination: some View {
@@ -33,35 +30,17 @@ enum Route: String, Hashable {
     case .toast:
       ToastView()
     case .dismissKeyboard:
-      #if canImport(UIKit)
       DismissKeyboardView()
-      #else
-      platformTipView
-      #endif
     case .hud:
       HudView()
     case .conditional:
       ConditionalView()
     case .roundCorner:
-      #if canImport(UIKit)
       RoundCorner()
-      #else
-      platformTipView
-      #endif
     case .debugPrint:
       DebugPrintView()
-    case .cgfloatEx:
-      CGFloatExView()
-    case .uiscreenEx:
-      UIScreenExView()
-    case .taskEx:
-      TaskExView()
     case .customNavBackButton:
-      #if canImport(UIKit)
       CustomNavBackButton()
-      #else
-      platformTipView
-      #endif
     }
   }
   

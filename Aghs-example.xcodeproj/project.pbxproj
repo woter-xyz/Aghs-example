@@ -10,7 +10,7 @@
 		3218EA6B2939B0BD00F24DFF /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218EA6A2939B0BD00F24DFF /* ToastView.swift */; };
 		322D169829D4179600FA5B98 /* CustomNavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D169729D4179600FA5B98 /* CustomNavBackButton.swift */; };
 		32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32369B0D299DD4E4001536BB /* RoundCorner.swift */; };
-		32531ADF2924A0D100B36D91 /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 32531ADE2924A0D100B36D91 /* Aghs */; };
+		3245A53A29F22A50003A7610 /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 3245A53929F22A50003A7610 /* Aghs */; };
 		32531AE32924A13700B36D91 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531AE22924A13700B36D91 /* HudView.swift */; };
 		32531B712927224700B36D91 /* DismissKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531B702927224700B36D91 /* DismissKeyboardView.swift */; };
 		32877F6E291E229600D00F15 /* Aghs_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877F6D291E229600D00F15 /* Aghs_exampleApp.swift */; };
@@ -23,9 +23,6 @@
 		32877F9E291E284E00D00F15 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877F9D291E284E00D00F15 /* Router.swift */; };
 		32877FA0291E2A3800D00F15 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877F9F291E2A3800D00F15 /* HomeModel.swift */; };
 		32877FA2291E2A3E00D00F15 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA1291E2A3E00D00F15 /* HomeViewModel.swift */; };
-		32877FA4291E322F00D00F15 /* CGFloatExView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA3291E322F00D00F15 /* CGFloatExView.swift */; };
-		32877FA6291E323800D00F15 /* UIScreenExView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA5291E323800D00F15 /* UIScreenExView.swift */; };
-		32877FA8291E323F00D00F15 /* TaskExView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA7291E323F00D00F15 /* TaskExView.swift */; };
 		32877FAA291E3B6F00D00F15 /* DebugPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA9291E3B6F00D00F15 /* DebugPrintView.swift */; };
 		32877FAC291E3DA600D00F15 /* SampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FAB291E3DA600D00F15 /* SampleList.swift */; };
 		32877FAF291E4FF800D00F15 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FAE291E4FF800D00F15 /* AppInfoView.swift */; };
@@ -69,9 +66,6 @@
 		32877F9D291E284E00D00F15 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		32877F9F291E2A3800D00F15 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		32877FA1291E2A3E00D00F15 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		32877FA3291E322F00D00F15 /* CGFloatExView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExView.swift; sourceTree = "<group>"; };
-		32877FA5291E323800D00F15 /* UIScreenExView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExView.swift; sourceTree = "<group>"; };
-		32877FA7291E323F00D00F15 /* TaskExView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExView.swift; sourceTree = "<group>"; };
 		32877FA9291E3B6F00D00F15 /* DebugPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugPrintView.swift; sourceTree = "<group>"; };
 		32877FAB291E3DA600D00F15 /* SampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleList.swift; sourceTree = "<group>"; };
 		32877FAE291E4FF800D00F15 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
@@ -83,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32531ADF2924A0D100B36D91 /* Aghs in Frameworks */,
+				3245A53A29F22A50003A7610 /* Aghs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,23 +98,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		322D169929D41EB100FA5B98 /* UI */ = {
+		322D169929D41EB100FA5B98 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				32531AE22924A13700B36D91 /* HudView.swift */,
 				3218EA6A2939B0BD00F24DFF /* ToastView.swift */,
 			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		322D169A29D41F1800FA5B98 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				32877FA3291E322F00D00F15 /* CGFloatExView.swift */,
-				32877FA5291E323800D00F15 /* UIScreenExView.swift */,
-				32877FA7291E323F00D00F15 /* TaskExView.swift */,
-			);
-			path = Extensions;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		322D169B29D41F3F00FA5B98 /* ViewModifiers */ = {
@@ -209,8 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				322D169B29D41F3F00FA5B98 /* ViewModifiers */,
-				322D169A29D41F1800FA5B98 /* Extensions */,
-				322D169929D41EB100FA5B98 /* UI */,
+				322D169929D41EB100FA5B98 /* Components */,
 				322D169C29D41F5C00FA5B98 /* Utils */,
 			);
 			path = Examples;
@@ -233,7 +216,7 @@
 			);
 			name = "Aghs-example";
 			packageProductDependencies = (
-				32531ADE2924A0D100B36D91 /* Aghs */,
+				3245A53929F22A50003A7610 /* Aghs */,
 			);
 			productName = "Aghs-example";
 			productReference = 32877F6A291E229600D00F15 /* Aghs-example.app */;
@@ -308,7 +291,7 @@
 			);
 			mainGroup = 32877F61291E229600D00F15;
 			packageReferences = (
-				32531ADD2924A0D100B36D91 /* XCRemoteSwiftPackageReference "Aghs" */,
+				3245A53829F22A50003A7610 /* XCRemoteSwiftPackageReference "Aghs" */,
 			);
 			productRefGroup = 32877F6B291E229600D00F15 /* Products */;
 			projectDirPath = "";
@@ -359,9 +342,6 @@
 				32877F9E291E284E00D00F15 /* Router.swift in Sources */,
 				32877FA2291E2A3E00D00F15 /* HomeViewModel.swift in Sources */,
 				32877FAA291E3B6F00D00F15 /* DebugPrintView.swift in Sources */,
-				32877FA4291E322F00D00F15 /* CGFloatExView.swift in Sources */,
-				32877FA6291E323800D00F15 /* UIScreenExView.swift in Sources */,
-				32877FA8291E323F00D00F15 /* TaskExView.swift in Sources */,
 				32877F9C291E26F200D00F15 /* HomeView.swift in Sources */,
 				32877FAC291E3DA600D00F15 /* SampleList.swift in Sources */,
 				69113635291FDCB8005AF8DF /* ConditionalView.swift in Sources */,
@@ -726,7 +706,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		32531ADD2924A0D100B36D91 /* XCRemoteSwiftPackageReference "Aghs" */ = {
+		3245A53829F22A50003A7610 /* XCRemoteSwiftPackageReference "Aghs" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = /Users/bruce/p/Aghs;
 			requirement = {
@@ -737,9 +717,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		32531ADE2924A0D100B36D91 /* Aghs */ = {
+		3245A53929F22A50003A7610 /* Aghs */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 32531ADD2924A0D100B36D91 /* XCRemoteSwiftPackageReference "Aghs" */;
+			package = 3245A53829F22A50003A7610 /* XCRemoteSwiftPackageReference "Aghs" */;
 			productName = Aghs;
 		};
 /* End XCSwiftPackageProductDependency section */

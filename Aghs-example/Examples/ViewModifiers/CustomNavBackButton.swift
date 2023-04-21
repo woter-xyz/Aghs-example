@@ -7,12 +7,11 @@
 
 import SwiftUI
 
-#if canImport(UIKit)
 struct CustomNavBackButton: View {
   
   var body: some View {
     Text("Hello")
-      .ax.navBackButton {
+      .ax.customNavBackButton {
         Image(systemName: "arrow.backward")
       }
   }
@@ -23,4 +22,3 @@ struct CustomNavBackButton_Previews: PreviewProvider {
     CustomNavBackButton()
   }
 }
-#endif

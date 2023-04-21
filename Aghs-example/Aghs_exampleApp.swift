@@ -10,7 +10,7 @@ import Aghs
 
 @main
 struct Aghs_exampleApp: App {
-  @StateObject var hud = Hud()
+  @StateObject private var hud = Hud()
   
   var body: some Scene {
     WindowGroup {

@@ -8,7 +8,6 @@
 import SwiftUI
 import Aghs
 
-#if canImport(UIKit)
 struct DismissKeyboardView: View {
   @State private var text = ""
   
@@ -19,9 +18,7 @@ struct DismissKeyboardView: View {
         .padding()
         
       Button("Dismiss Keyboard") {
-        #if canImport(UIKit)
         Aghs.dismissKeyboard()
-        #endif
       }
       
       Text("Tap on this view to dismiss keyboard")
@@ -38,4 +35,3 @@ struct DismissKeyboardView_Previews: PreviewProvider {
     DismissKeyboardView()
   }
 }
-#endif
