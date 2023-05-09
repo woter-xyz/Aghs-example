@@ -26,6 +26,7 @@
 		32877FAA291E3B6F00D00F15 /* DebugPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FA9291E3B6F00D00F15 /* DebugPrintView.swift */; };
 		32877FAC291E3DA600D00F15 /* SampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FAB291E3DA600D00F15 /* SampleList.swift */; };
 		32877FAF291E4FF800D00F15 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FAE291E4FF800D00F15 /* AppInfoView.swift */; };
+		32CB0BBD2A03C686009401CA /* NetworkStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB0BBC2A03C686009401CA /* NetworkStatusView.swift */; };
 		69113635291FDCB8005AF8DF /* ConditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69113634291FDCB8005AF8DF /* ConditionalView.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		32877FA9291E3B6F00D00F15 /* DebugPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugPrintView.swift; sourceTree = "<group>"; };
 		32877FAB291E3DA600D00F15 /* SampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleList.swift; sourceTree = "<group>"; };
 		32877FAE291E4FF800D00F15 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		32CB0BBC2A03C686009401CA /* NetworkStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusView.swift; sourceTree = "<group>"; };
 		69113634291FDCB8005AF8DF /* ConditionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				32877FA9291E3B6F00D00F15 /* DebugPrintView.swift */,
 				32877FAE291E4FF800D00F15 /* AppInfoView.swift */,
 				32531B702927224700B36D91 /* DismissKeyboardView.swift */,
+				32CB0BBC2A03C686009401CA /* NetworkStatusView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				69113635291FDCB8005AF8DF /* ConditionalView.swift in Sources */,
 				32531B712927224700B36D91 /* DismissKeyboardView.swift in Sources */,
 				32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */,
+				32CB0BBD2A03C686009401CA /* NetworkStatusView.swift in Sources */,
 				32531AE32924A13700B36D91 /* HudView.swift in Sources */,
 				3218EA6B2939B0BD00F24DFF /* ToastView.swift in Sources */,
 			);

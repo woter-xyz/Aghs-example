@@ -21,7 +21,8 @@ final class HomeViewModel: ObservableObject {
     ]),
     .init(name: "Utils", children: [
       .init(route: .debugPrint),
-      .init(route: .dismissKeyboard)
+      .init(route: .dismissKeyboard),
+      .init(route: .networkStatus)
     ])
   ]
   
