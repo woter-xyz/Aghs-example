@@ -13,6 +13,10 @@ struct Aghs_exampleApp: App {
   @StateObject private var hud = Hud()
   @StateObject private var networkStatusMonitor = NetworkStatusMonitor()
   
+  init() {
+    Hud.defaultStyle = .default(background: Color.yellow.opacity(0.35))
+  }
+  
   var body: some Scene {
     WindowGroup {
       HomeView()
