@@ -25,6 +25,7 @@ enum Route: String, Hashable {
   case debugPrint
   case customNavBackButton
   case networkStatus
+  case viewStatus
   
   @ViewBuilder var destination: some View {
     switch self {
@@ -44,6 +45,8 @@ enum Route: String, Hashable {
       CustomNavBackButton()
     case .networkStatus:
       NetworkStatusView()
+    case .viewStatus:
+      MyView(viewModel: .init())
     }
   }
   

@@ -14,6 +14,7 @@ final class HomeViewModel: ObservableObject {
       .init(route: .conditional),
       .init(route: .roundCorner),
       .init(route: .customNavBackButton),
+      .init(route: .viewStatus)
     ]),
     .init(name: "Components", children: [
       .init(route: .toast),

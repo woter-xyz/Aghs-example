@@ -10,7 +10,8 @@
 		3218EA6B2939B0BD00F24DFF /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218EA6A2939B0BD00F24DFF /* ToastView.swift */; };
 		322D169829D4179600FA5B98 /* CustomNavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D169729D4179600FA5B98 /* CustomNavBackButton.swift */; };
 		32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32369B0D299DD4E4001536BB /* RoundCorner.swift */; };
-		3245A53A29F22A50003A7610 /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 3245A53929F22A50003A7610 /* Aghs */; };
+		3236D47D2A0C89C200E6E47B /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 3236D47C2A0C89C200E6E47B /* Aghs */; };
+		3236D4812A0C9C3F00E6E47B /* ViewStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */; };
 		32531AE32924A13700B36D91 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531AE22924A13700B36D91 /* HudView.swift */; };
 		32531B712927224700B36D91 /* DismissKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531B702927224700B36D91 /* DismissKeyboardView.swift */; };
 		32877F6E291E229600D00F15 /* Aghs_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877F6D291E229600D00F15 /* Aghs_exampleApp.swift */; };
@@ -51,6 +52,8 @@
 		3218EA6A2939B0BD00F24DFF /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		322D169729D4179600FA5B98 /* CustomNavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBackButton.swift; sourceTree = "<group>"; };
 		32369B0D299DD4E4001536BB /* RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
+		3236D47F2A0C8A5C00E6E47B /* Aghs */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Aghs; path = ../Aghs; sourceTree = "<group>"; };
+		3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatusView.swift; sourceTree = "<group>"; };
 		32531AE22924A13700B36D91 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		32531B702927224700B36D91 /* DismissKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardView.swift; sourceTree = "<group>"; };
 		32877F6A291E229600D00F15 /* Aghs-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aghs-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3245A53A29F22A50003A7610 /* Aghs in Frameworks */,
+				3236D47D2A0C89C200E6E47B /* Aghs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +118,7 @@
 				69113634291FDCB8005AF8DF /* ConditionalView.swift */,
 				32369B0D299DD4E4001536BB /* RoundCorner.swift */,
 				322D169729D4179600FA5B98 /* CustomNavBackButton.swift */,
+				3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -133,6 +137,7 @@
 		32877F61291E229600D00F15 = {
 			isa = PBXGroup;
 			children = (
+				3236D47F2A0C8A5C00E6E47B /* Aghs */,
 				32877F6C291E229600D00F15 /* Aghs-example */,
 				32877F7E291E229800D00F15 /* Aghs-exampleTests */,
 				32877F88291E229800D00F15 /* Aghs-exampleUITests */,
@@ -219,7 +224,7 @@
 			);
 			name = "Aghs-example";
 			packageProductDependencies = (
-				3245A53929F22A50003A7610 /* Aghs */,
+				3236D47C2A0C89C200E6E47B /* Aghs */,
 			);
 			productName = "Aghs-example";
 			productReference = 32877F6A291E229600D00F15 /* Aghs-example.app */;
@@ -294,7 +299,7 @@
 			);
 			mainGroup = 32877F61291E229600D00F15;
 			packageReferences = (
-				3245A53829F22A50003A7610 /* XCRemoteSwiftPackageReference "Aghs" */,
+				3236D47B2A0C89C200E6E47B /* XCRemoteSwiftPackageReference "Aghs" */,
 			);
 			productRefGroup = 32877F6B291E229600D00F15 /* Products */;
 			projectDirPath = "";
@@ -347,6 +352,7 @@
 				32877FAA291E3B6F00D00F15 /* DebugPrintView.swift in Sources */,
 				32877F9C291E26F200D00F15 /* HomeView.swift in Sources */,
 				32877FAC291E3DA600D00F15 /* SampleList.swift in Sources */,
+				3236D4812A0C9C3F00E6E47B /* ViewStatusView.swift in Sources */,
 				69113635291FDCB8005AF8DF /* ConditionalView.swift in Sources */,
 				32531B712927224700B36D91 /* DismissKeyboardView.swift in Sources */,
 				32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */,
@@ -710,9 +716,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3245A53829F22A50003A7610 /* XCRemoteSwiftPackageReference "Aghs" */ = {
+		3236D47B2A0C89C200E6E47B /* XCRemoteSwiftPackageReference "Aghs" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = /Users/bruce/p/Aghs;
+			repositoryURL = "https://github.com/woter-xyz/Aghs";
 			requirement = {
 				branch = dev;
 				kind = branch;
@@ -721,9 +727,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3245A53929F22A50003A7610 /* Aghs */ = {
+		3236D47C2A0C89C200E6E47B /* Aghs */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3245A53829F22A50003A7610 /* XCRemoteSwiftPackageReference "Aghs" */;
+			package = 3236D47B2A0C89C200E6E47B /* XCRemoteSwiftPackageReference "Aghs" */;
 			productName = Aghs;
 		};
 /* End XCSwiftPackageProductDependency section */
