@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3218EA6B2939B0BD00F24DFF /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218EA6A2939B0BD00F24DFF /* ToastView.swift */; };
 		322D169829D4179600FA5B98 /* CustomNavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D169729D4179600FA5B98 /* CustomNavBackButton.swift */; };
 		32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32369B0D299DD4E4001536BB /* RoundCorner.swift */; };
 		3236D47D2A0C89C200E6E47B /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 3236D47C2A0C89C200E6E47B /* Aghs */; };
@@ -49,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3218EA6A2939B0BD00F24DFF /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		322D169729D4179600FA5B98 /* CustomNavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBackButton.swift; sourceTree = "<group>"; };
 		32369B0D299DD4E4001536BB /* RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
 		3236D47F2A0C8A5C00E6E47B /* Aghs */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Aghs; path = ../Aghs; sourceTree = "<group>"; };
@@ -103,15 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		322D169929D41EB100FA5B98 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				32531AE22924A13700B36D91 /* HudView.swift */,
-				3218EA6A2939B0BD00F24DFF /* ToastView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		322D169B29D41F3F00FA5B98 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +108,7 @@
 				32369B0D299DD4E4001536BB /* RoundCorner.swift */,
 				322D169729D4179600FA5B98 /* CustomNavBackButton.swift */,
 				3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */,
+				32531AE22924A13700B36D91 /* HudView.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -201,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				322D169B29D41F3F00FA5B98 /* ViewModifiers */,
-				322D169929D41EB100FA5B98 /* Components */,
 				322D169C29D41F5C00FA5B98 /* Utils */,
 			);
 			path = Examples;
@@ -358,7 +347,6 @@
 				32369B0E299DD4E4001536BB /* RoundCorner.swift in Sources */,
 				32CB0BBD2A03C686009401CA /* NetworkStatusView.swift in Sources */,
 				32531AE32924A13700B36D91 /* HudView.swift in Sources */,
-				3218EA6B2939B0BD00F24DFF /* ToastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

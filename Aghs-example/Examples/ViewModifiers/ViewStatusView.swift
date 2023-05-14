@@ -68,8 +68,6 @@ struct MyView: View {
     }
     .frame(maxWidth: .infinity, maxHeight: .infinity)
     .ax.viewStatus(viewModel.viewStatus) {
-      Text("Empty")
-    } toastView: {
       Circle().fill(.blue).frame(width: 40, height: 40)
         .offset(x: .random(in: 10...30), y: .random(in: 10...30))
     } loadingView: {

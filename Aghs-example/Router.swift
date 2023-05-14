@@ -17,7 +17,6 @@ public final class Router: ObservableObject {
 }
 
 enum Route: String, Hashable {
-  case toast
   case dismissKeyboard
   case hud
   case conditional
@@ -29,8 +28,6 @@ enum Route: String, Hashable {
   
   @ViewBuilder var destination: some View {
     switch self {
-    case .toast:
-      ToastView()
     case .dismissKeyboard:
       DismissKeyboardView()
     case .hud:
