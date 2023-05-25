@@ -18,6 +18,7 @@ public final class Router: ObservableObject {
 
 enum Route: String, Hashable {
   case dismissKeyboard
+  case hudManager
   case hud
   case conditional
   case roundCorner
@@ -30,6 +31,8 @@ enum Route: String, Hashable {
     switch self {
     case .dismissKeyboard:
       DismissKeyboardView()
+    case .hudManager:
+      HudManagerView()
     case .hud:
       HudView()
     case .conditional:

@@ -28,6 +28,7 @@
 		32877FAF291E4FF800D00F15 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877FAE291E4FF800D00F15 /* AppInfoView.swift */; };
 		32CB0BBD2A03C686009401CA /* NetworkStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB0BBC2A03C686009401CA /* NetworkStatusView.swift */; };
 		69113635291FDCB8005AF8DF /* ConditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69113634291FDCB8005AF8DF /* ConditionalView.swift */; };
+		69DFA8342A1FAC2300FD20D4 /* HudManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DFA8332A1FAC2300FD20D4 /* HudManagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		32877FAE291E4FF800D00F15 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
 		32CB0BBC2A03C686009401CA /* NetworkStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusView.swift; sourceTree = "<group>"; };
 		69113634291FDCB8005AF8DF /* ConditionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalView.swift; sourceTree = "<group>"; };
+		69DFA8332A1FAC2300FD20D4 /* HudManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudManagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				322D169729D4179600FA5B98 /* CustomNavBackButton.swift */,
 				3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */,
 				32531AE22924A13700B36D91 /* HudView.swift */,
+				69DFA8332A1FAC2300FD20D4 /* HudManagerView.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				32877FAF291E4FF800D00F15 /* AppInfoView.swift in Sources */,
 				32877F9E291E284E00D00F15 /* Router.swift in Sources */,
 				32877FA2291E2A3E00D00F15 /* HomeViewModel.swift in Sources */,
+				69DFA8342A1FAC2300FD20D4 /* HudManagerView.swift in Sources */,
 				32877FAA291E3B6F00D00F15 /* DebugPrintView.swift in Sources */,
 				32877F9C291E26F200D00F15 /* HomeView.swift in Sources */,
 				32877FAC291E3DA600D00F15 /* SampleList.swift in Sources */,
