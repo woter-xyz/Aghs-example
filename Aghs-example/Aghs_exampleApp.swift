@@ -23,7 +23,7 @@ struct Aghs_exampleApp: App {
           alignment: .top,
           transition: .move(edge: .top)
         ))
-        .ax.hudManager(.init())
+        .ax.hudManager()
     }
   }
 }
