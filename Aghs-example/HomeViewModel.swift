@@ -12,7 +12,6 @@ final class HomeViewModel: ObservableObject {
   @Published var listData: [HomeItemModel] = [
     .init(name: "ViewModifiers", children: [
       .init(route: .hudManager),
-      .init(route: .hud),
       .init(route: .conditional),
       .init(route: .roundCorner),
       .init(route: .customNavBackButton),
