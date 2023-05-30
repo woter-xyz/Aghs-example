@@ -46,7 +46,7 @@ struct HudManagerView: View {
       
       Button("Show 2") {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-          hudManager.show(id: "two", animation: .linear(duration: 1), transition: .offset(x: -50), interactiveHide: true) {
+          hudManager.show(id: "two", animation: .linear(duration: 1), transition: .slide.combined(with: .opacity), interactiveHide: true) {
             hudView(title: "Dimiss 2", offsetY: 0) {
               hudManager.hide(id: "two")
             }
