@@ -29,7 +29,7 @@ import SwiftUI
 import Aghs
 
 struct HudManagerView: View {
-  @EnvironmentObject private var hudManager: HudManager
+  @EnvironmentObject private var hudManager: Hud
   
   var body: some View {
     VStack(spacing: 30) {

@@ -16,7 +16,7 @@ struct Aghs_exampleApp: App {
     WindowGroup {
       HomeView()
         .environmentObject(networkStatusMonitor)
-        .ax.hudManager()
+        .ax.initHud()
     }
   }
 }
