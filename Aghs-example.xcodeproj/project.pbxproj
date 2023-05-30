@@ -12,6 +12,7 @@
 		3236D47D2A0C89C200E6E47B /* Aghs in Frameworks */ = {isa = PBXBuildFile; productRef = 3236D47C2A0C89C200E6E47B /* Aghs */; };
 		3236D4812A0C9C3F00E6E47B /* ViewStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */; };
 		32531B712927224700B36D91 /* DismissKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32531B702927224700B36D91 /* DismissKeyboardView.swift */; };
+		3262C0962A25F2900037B576 /* ViewFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262C0952A25F2900037B576 /* ViewFrame.swift */; };
 		32877F6E291E229600D00F15 /* Aghs_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32877F6D291E229600D00F15 /* Aghs_exampleApp.swift */; };
 		32877F72291E229800D00F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32877F71291E229800D00F15 /* Assets.xcassets */; };
 		32877F76291E229800D00F15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32877F75291E229800D00F15 /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		3236D47F2A0C8A5C00E6E47B /* Aghs */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Aghs; path = ../Aghs; sourceTree = "<group>"; };
 		3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatusView.swift; sourceTree = "<group>"; };
 		32531B702927224700B36D91 /* DismissKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardView.swift; sourceTree = "<group>"; };
+		3262C0952A25F2900037B576 /* ViewFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFrame.swift; sourceTree = "<group>"; };
 		32877F6A291E229600D00F15 /* Aghs-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aghs-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32877F6D291E229600D00F15 /* Aghs_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aghs_exampleApp.swift; sourceTree = "<group>"; };
 		32877F71291E229800D00F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				322D169729D4179600FA5B98 /* CustomNavBackButton.swift */,
 				3236D4802A0C9C3F00E6E47B /* ViewStatusView.swift */,
 				69DFA8332A1FAC2300FD20D4 /* HudView.swift */,
+				3262C0952A25F2900037B576 /* ViewFrame.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3262C0962A25F2900037B576 /* ViewFrame.swift in Sources */,
 				32877FA0291E2A3800D00F15 /* HomeModel.swift in Sources */,
 				32877F6E291E229600D00F15 /* Aghs_exampleApp.swift in Sources */,
 				322D169829D4179600FA5B98 /* CustomNavBackButton.swift in Sources */,
