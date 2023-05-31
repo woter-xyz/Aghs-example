@@ -1,5 +1,5 @@
 //
-//  ViewFrame.swift
+//  FrameReaderView.swift
 //  Aghs-example
 //
 //  Created by zzzwco on 2023/5/30.
@@ -28,7 +28,7 @@
 import SwiftUI
 import Aghs
 
-struct ViewFrame: View {
+struct FrameReaderView: View {
   @State private var topF: CGRect = .zero
   @State private var leftF: CGRect = .zero
   @State private var rightF: CGRect = .zero
@@ -40,8 +40,8 @@ struct ViewFrame: View {
       Text("Top")
         .padding(50)
         .border(.red)
-        .ax.getFrame { f in
-          topF = f
+        .ax.frameReader { rect in
+          topF = rect
         }
         .overlay(
           Text("x: \(Int(topF.origin.x)), y: \(Int(topF.origin.y))\nw: \(Int(topF.size.width)), h: \(Int(topF.size.height))")
@@ -53,7 +53,7 @@ struct ViewFrame: View {
         Text("Left")
           .padding(60)
           .border(.red)
-          .ax.getFrame { f in
+          .ax.frameReader { f in
             leftF = f
           }
           .overlay(
@@ -65,7 +65,7 @@ struct ViewFrame: View {
         Text("Right")
           .padding(70)
           .border(.red)
-          .ax.getFrame { f in
+          .ax.frameReader { f in
             rightF = f
           }
           .overlay(
@@ -104,7 +104,7 @@ struct ViewFrame: View {
       }
       .padding()
       .border(.red)
-      .ax.getFrame { f in
+      .ax.frameReader { f in
         popButtonFrame = f
       }
     }
@@ -113,8 +113,8 @@ struct ViewFrame: View {
   }
 }
 
-struct ViewFrame_Previews: PreviewProvider {
+struct FrameReaderView_Previews: PreviewProvider {
   static var previews: some View {
-    ViewFrame()
+    FrameReaderView()
   }
 }

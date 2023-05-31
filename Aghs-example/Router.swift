@@ -17,9 +17,10 @@ public final class Router: ObservableObject {
 }
 
 enum Route: String, Hashable {
+  case popover
   case dismissKeyboard
   case hud
-  case viewFrame
+  case frameReader
   case conditional
   case roundCorner
   case debugPrint
@@ -29,12 +30,14 @@ enum Route: String, Hashable {
   
   @ViewBuilder var destination: some View {
     switch self {
+    case .popover:
+      PopoverView()
     case .dismissKeyboard:
       DismissKeyboardView()
     case .hud:
       HudView()
-    case .viewFrame:
-      ViewFrame()
+    case .frameReader:
+      FrameReaderView()
     case .conditional:
       ConditionalView()
     case .roundCorner:
