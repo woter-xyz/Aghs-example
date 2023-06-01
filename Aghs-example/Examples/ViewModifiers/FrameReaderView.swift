@@ -74,39 +74,6 @@ struct FrameReaderView: View {
               .foregroundColor(.red)
           )
       }
-      
-      
-      Button("Popover") {
-        hud.show(transition: .opacity, backgroundColor: .clear) {
-          ZStack(alignment: .topLeading) {
-            Color.blue.opacity(0.15)
-            ScrollView(.vertical) {
-              VStack {
-                ForEach(0..<3, id: \.self) {
-                  Button($0.formatted()) {
-                    hud.hideAll()
-                  }
-                  .foregroundColor(.white)
-                  .frame(width: 80, height: 30)
-                }
-              }
-            }
-            .scrollDisabled(true)
-            .fixedSize(horizontal: false, vertical: true)
-            .background(Color.purple)
-            .cornerRadius(10)
-            .offset(x: popButtonFrame.origin.x, y: popButtonFrame.origin.y)
-          }
-          .onTapGesture {
-            hud.hideAll()
-          }
-        }
-      }
-      .padding()
-      .border(.red)
-      .ax.frameReader { f in
-        popButtonFrame = f
-      }
     }
     .frame(maxWidth: .infinity, maxHeight: .infinity)
     .border(.red)
